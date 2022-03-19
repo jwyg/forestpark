@@ -1,0 +1,130 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+}
+
+.wrapper {
+   position: absolute;
+   top: 40%;
+   height: 7vw;
+   width: 100%;
+   min-width: 200px;
+   display: flex;
+   flex-grow: 1;
+   flex-shrink: 1;
+   flex-basis: 0%;
+ }
+
+.search {
+  margin: 0 auto;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+  width: 60vw;
+  border: 1px solid #dfe1e5;
+  box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+  border-radius: 50px;
+  border-top-left-radius: 3.5vw;
+  border-top-right-radius: 3.5vw;
+  border-bottom-right-radius: 3.5vw;
+  border-bottom-left-radius: 3.5vw;
+  border-top-color: rgb(223, 225, 229);
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-right-color: rgb(223, 225, 229);
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-bottom-color: rgb(223, 225, 229);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-left-color: rgb(223, 225, 229);
+  border-left-style: solid;
+  border-left-width: 1px;
+  padding: 2px 23px 2px 30px;
+  outline: 0;
+  background-color: #fff;
+  text-align: left;
+  color: #202124;
+  font-family: arial,sans-serif;
+  font-size: 3.5vw;
+}
+
+.search:hover, .search:focus {
+  border: 1.5px solid #009688;
+  background-color: white;
+}
+
+.corner {
+  position: absolute;
+  top: 20;
+  right: 20;
+  width: 100px;
+  text-align:right;
+  font-size: 13pt;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.text {
+  margin: auto;
+  padding-top: 60%;
+  padding-bottom: 4000px;
+  text-align: justify;
+  color: #800000;
+  font-size: 20pt;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.about {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  background: #FFFFFF;
+  color: #000000;
+  border-style: dashed;
+  position: relative;
+  margin-bottom: 10%;
+  text-align: left;
+  font-size: 15pt;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.code {
+  font-family: 'Courier New', monospace;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 3%;
+  padding-left: 3%;
+}
+
+.audio-container {
+ display: flex;
+ justify-content: center;
+ align-items: center
+}
+
+h1 {
+  padding-top: 30%;
+  padding-bottom: 30%;
+  text-align: center;
+  color: #00008b;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50pt;
+  font-weight: bold;
+}
