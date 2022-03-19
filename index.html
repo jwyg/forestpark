@@ -3,7 +3,6 @@
 <head>
 <title>everything at the forest park</title>
 <LINK REL="stylesheet" TYPE="text/css" HREF="styles.css">
-<script src="pop.js"></script>
 </head>
 <body bgcolor="#FFFFFF" background="forest.jpg" vlink="teal">
 
@@ -377,23 +376,7 @@
 </div>
 
 <div class="about" id="about"><p><em>Everything in the forest park</em> is an extended invitation to partake in all activities available at a forest park in Scotland, according to search engine results. It explores how the web invites different kinds of relations with woodland areas, addressing page visitors as tourists and adventurers, hikers and holidayers, customers and conservationists.</p>
-<p>It is composed from fragments of texts extracted from every Google Search result for <a href="https://en.wikipedia.org/wiki/Queen_Elizabeth_Forest_Park" target="_blank">a forest park in Scotland</a>. While search engines aim to order and optimise results according to their relevance for users and advertisers through crawling and algorithmic ordering, <em>Everything in the forest park</em> collapses and reorders these indexed results to produce a speculative, synthetic account of forest park life.</p>
-
-<p>It was produced with the following protocol:
-<ol>
-  <li>Extract URLs from query results using <a href="https://medialab.sciencespo.fr/en/tools/google-bookmarklets/" target="_blank">Sciences Po médialab Google Bookmarklet tool</a>.</li>
-  <li>Filter out non-HTML results (e.g. PDFs) and results relating to other places using <a href="https://openrefine.org/" target="_blank">OpenRefine</a>.</li>
-  <li>Extract full text from filtered URLs using <a href="https://tools.digitalmethods.net/beta/textRipper/" target="_blank">Digital Methods Initiative Text Ripper tool</a>.</li>
-  <li>Use <a href="https://en.wikipedia.org/wiki/Grep" target="_blank">grep</a>, <a href="https://en.wikipedia.org/wiki/Sed" target="_blank">sed</a> and <a href="https://en.wikipedia.org/wiki/Sort_(Unix)" target="_blank">sort</a> to obtain texts from query results addressing "you" and re-order alphabetically with the command: <div class="code">grep -i " you " results_text.txt | sed 's/[^a-z  A-Z 0-9 ,.-:!]//g' | sort -u > forestpark.txt</div></li>
-  <li>Remove menu items and references to particular place names.</li>
-  <li>Generate audio with <a href="https://ss64.com/osx/say.html" target="_blank">say</a>:
-
-<div class="code">cat forestpark.txt | say -v Fiona -r 120 -o forestpark.aiff --progress</div>
-  </li>
-  <li>Create web page and final audio track using media and design elements from query results.</li>
-</ol></p>
-<br /><br />
-
+<p>It is composed from fragments of texts extracted from every Google Search result for <a href="https://en.wikipedia.org/wiki/Queen_Elizabeth_Forest_Park" target="_blank">a forest park in Scotland</a>. While search engines aim to order and optimise results according to their relevance for users and advertisers through crawling and algorithmic ordering, <em>Everything in the forest park</em> collapses and reorders these indexed results to produce a speculative account of forest park life.</p>
 <a href="#top">Back to top</a>
 </div>
 </body></html>

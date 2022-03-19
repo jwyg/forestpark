@@ -2,9 +2,6 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
-}
-
 .wrapper {
    position: absolute;
    top: 40%;
