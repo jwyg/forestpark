@@ -1,5 +1,3 @@
-# README
-
 _Everything in the forest park_ is an extended invitation to partake in all activities available at a forest park in Scotland, according to search engine results. It explores how the web invites different kinds of relations with woodland areas, addressing page visitors as tourists and adventurers, hikers and holidayers, customers and conservationists.
 
 It is composed from fragments of texts extracted from every Google Search result for [a forest park in Scotland](https://en.wikipedia.org/wiki/Queen_Elizabeth_Forest_Park). While search engines aim to order and optimise results according to their relevance for users and advertisers through crawling and algorithmic ordering, _Everything in the forest park_ collapses and reorders these indexed results to produce a speculative account of forest park life.
