@@ -11,7 +11,7 @@ It was produced with the following protocol:
 1.  Extract URLs from query results using [Sciences Po médialab Google Bookmarklet tool](https://medialab.sciencespo.fr/en/tools/google-bookmarklets/).
 2.  Filter out non-HTML results (e.g. PDFs) and results relating to other places using [OpenRefine](https://openrefine.org/).
 3.  Extract full text from filtered URLs using [Digital Methods Initiative Text Ripper tool](https://tools.digitalmethods.net/beta/textRipper/).
-4.  Use [grep](https://en.wikipedia.org/wiki/Grep), [sed](https://en.wikipedia.org/wiki/Sed) and [sort](https://en.wikipedia.org/wiki/Sort_(Unix)) to obtain texts from query results addressing "you" and re-order alphabetically with the command:
+4.  Use [grep](https://en.wikipedia.org/wiki/Grep), [sed](https://en.wikipedia.org/wiki/Sed) and [sort](https://en.wikipedia.org/wiki/Sort_(Unix)) to obtain texts from query results addressing "you" and re-order alphabetically:
 
         grep -i " you " results\_text.txt | sed 's/\[^a-z A-Z 0-9 ,.-:!\]//g' | sort -u > forestpark.txt
 
