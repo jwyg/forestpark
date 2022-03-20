@@ -1,5 +1,9 @@
 html {
   scroll-behavior: smooth;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
 }
 
 .wrapper {
@@ -69,20 +73,13 @@ html {
   padding-top: 100vh;
   padding-bottom: 4000px;
   text-align: justify;
-  color: #800000;
-  font-size: 20pt;
+  color: #186A3B;
+  font-size: calc(20px + 1vw);
   font-family: Arial, Helvetica, sans-serif;
   width: 50%;
   margin-left: 25%;
   margin-right: 25%;
 }
-
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 
 .about {
   padding-top: 5%;
@@ -93,21 +90,13 @@ html {
   color: #000000;
   border-style: dashed;
   position: relative;
-  margin-bottom: 10%;
   text-align: left;
-  font-size: 15pt;
+  font-size: calc(15px + 1vw);;
   font-family: Arial, Helvetica, sans-serif;
   width: 50%;
   margin-left: 25%;
   margin-right: 25%;
-}
-
-.code {
-  font-family: 'Courier New', monospace;
-  padding-top: 3%;
-  padding-bottom: 3%;
-  padding-left: 3%;
-  padding-left: 3%;
+  margin-bottom: 25%;
 }
 
 .audio-container {
@@ -125,3 +114,26 @@ h1 {
   font-size: 50pt;
   font-weight: bold;
 }
+
+img {
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  max-width: 100vw;
+  width: 120vw;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  padding-left: 0%;
+  padding-right: 0%;
+}
+
+/*.code {
+  font-family: 'Courier New', monospace;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+*/
