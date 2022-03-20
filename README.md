@@ -13,11 +13,11 @@ It was produced with the following protocol:
 3.  Extract full text from filtered URLs using [Digital Methods Initiative Text Ripper tool](https://tools.digitalmethods.net/beta/textRipper/).
 4.  Use [grep](https://en.wikipedia.org/wiki/Grep), [sed](https://en.wikipedia.org/wiki/Sed) and [sort](https://en.wikipedia.org/wiki/Sort_(Unix)) to obtain texts from query results addressing "you" and re-order alphabetically with the command:
 
-```grep -i " you " results\_text.txt | sed 's/\[^a-z A-Z 0-9 ,.-:!\]//g' | sort -u > forestpark.txt```
+        grep -i " you " results\_text.txt | sed 's/\[^a-z A-Z 0-9 ,.-:!\]//g' | sort -u > forestpark.txt
 
 5.  Remove menu items and references to particular place names.
 6.  Generate audio with [say](https://ss64.com/osx/say.html):
 
-```cat forestpark.txt | say -v Fiona -r 120 -o forestpark.aiff --progress```
+        cat forestpark.txt | say -v Fiona -r 120 -o forestpark.aiff --progress
 
 7.  Create web page and final audio track using media and design elements from query results.
